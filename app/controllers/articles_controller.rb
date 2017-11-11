@@ -73,6 +73,6 @@ class ArticlesController < ApplicationController
     end
 
     def test 
-      puts "test"
+      raise "test".inspect
     end
 end
